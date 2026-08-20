@@ -7,7 +7,9 @@
 ## Install
 
 ```sh
-dsh plugin --profile web add github:<you>/dsh-at-file
+dsh plugin --profile web add github:MisRightW/dsh-at-file
+# or, from the git URL directly
+dsh plugin --profile web add https://github.com/MisRightW/dsh-at-file.git
 # or, from a published npm package
 dsh plugin --profile web add dsh-at-file
 ```

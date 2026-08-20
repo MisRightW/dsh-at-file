@@ -96,5 +96,9 @@
     "allowBuilds": {
       "esbuild": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MisRightW/dsh-at-file.git"
   }
 }

@@ -7,7 +7,9 @@ English: [README.md](README.md)。
 ## 安装
 
 ```sh
-dsh plugin --profile web add github:<you>/dsh-at-file
+dsh plugin --profile web add github:MisRightW/dsh-at-file
+# 或直接使用 git URL
+dsh plugin --profile web add https://github.com/MisRightW/dsh-at-file.git
 # 或从已发布的 npm 包安装
 dsh plugin --profile web add dsh-at-file
 ```

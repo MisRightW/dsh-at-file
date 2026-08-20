@@ -1,0 +1,12 @@
+# dsh-at-file plugin bundle: '@' workspace file references.
+
+# Host half: the atFile index service + pre-step @path expansion. The
+# typert-loader picks up ./typert automatically when this row loads.
+- insert:
+    - id: at-file
+      name: dsh-at-file
+
+    # Browser half: the '@' trigger source that lists index candidates through
+    # the atFile Remote.
+    - id: ui-at-file
+      name: 'dsh-at-file/client'

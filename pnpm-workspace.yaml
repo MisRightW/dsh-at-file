@@ -1,0 +1,7 @@
+allowBuilds:
+  koffi: set this to true or false
+# Standalone plugin repo: never auto-install peer dependencies (several
+# @deepseek-ai rc peers are unpublished), and do not fail on missing peers —
+# the dsh host supplies them at runtime.
+autoInstallPeers: false
+strictPeerDependencies: false
